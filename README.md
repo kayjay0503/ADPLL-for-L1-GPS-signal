@@ -158,20 +158,6 @@ The testbench drives a 16.368 MHz system clock and a 4.092 MHz reference square 
 
 ---
 
-## Roadmap
-
-- [x] MATLAB loop design and simulation
-- [x] VHDL RTL for PD, loop filter, NCO/CORDIC, and top level
-- [x] Behavioral verification in Vivado
-- [x] `.xdc` constraints and bitstream generation
-- [ ] Timing and synthesis-warning cleanup
-- [ ] Hardware bring-up on Zynq-7020 + AD9361 via JTAG
-- [ ] ARM Cortex-A9 (PS) firmware for AD9361 gain control, tracking state machine, and offset monitoring
-- [ ] Type-3 (3rd-order) loop filter for tracking frequency ramps (Doppler rate)
-- [ ] Costas loop discriminator to handle BPSK-modulated GPS C/A signals
-
----
-
 ## References
 
 1. Texas Instruments, *Introduction to Phase-Locked Loop System Modeling*, SLYT169, 2004. https://www.ti.com/lit/pdf/slyt169
